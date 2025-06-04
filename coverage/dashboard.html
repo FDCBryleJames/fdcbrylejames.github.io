@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/NativeCamp/user/Controller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/var/www/NativeCamp/user/Controller</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppController.php.html#33">AppController</a></td><td class="text-right">28%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppController.php.html#33">AppController</a></td><td class="text-right">459847</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppController.php.html#122"><abbr title="AppController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#1736"><abbr title="AppController::redirectUsingIpLang">redirectUsingIpLang</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#1772"><abbr title="AppController::redirect">redirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#1904"><abbr title="AppController::jpyOnlyPage">jpyOnlyPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#4946"><abbr title="AppController::processParentPaypalPayment">processParentPaypalPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#5249"><abbr title="AppController::savePaypalFailedSettlement">savePaypalFailedSettlement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#5263"><abbr title="AppController::processParentAfteePayment">processParentAfteePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#5572"><abbr title="AppController::checkCompanyIPForSMS">checkCompanyIPForSMS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#5595"><abbr title="AppController::setPerMonthSymbol">setPerMonthSymbol</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#5612"><abbr title="AppController::corporateIpRestrictionLogout">corporateIpRestrictionLogout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppController.php.html#4154"><abbr title="AppController::processChildPaypalPayment">processChildPaypalPayment</abbr></a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="AppController.php.html#3170"><abbr title="AppController::chargeAfteePaymentReceivable">chargeAfteePaymentReceivable</abbr></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="AppController.php.html#4461"><abbr title="AppController::processChildAfteePayment">processChildAfteePayment</abbr></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="AppController.php.html#2092"><abbr title="AppController::chargePayPalPaymentReceivable">chargePayPalPaymentReceivable</abbr></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="AppController.php.html#2660"><abbr title="AppController::wpChargePaymentReceivable">wpChargePaymentReceivable</abbr></a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="AppController.php.html#2003"><abbr title="AppController::getTimezoneData">getTimezoneData</abbr></a></td><td class="text-right">59%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppController.php.html#122"><abbr title="AppController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">154056</td></tr>
+       <tr><td><a href="AppController.php.html#2092"><abbr title="AppController::chargePayPalPaymentReceivable">chargePayPalPaymentReceivable</abbr></a></td><td class="text-right">3182</td></tr>
+       <tr><td><a href="AppController.php.html#3170"><abbr title="AppController::chargeAfteePaymentReceivable">chargeAfteePaymentReceivable</abbr></a></td><td class="text-right">3050</td></tr>
+       <tr><td><a href="AppController.php.html#4461"><abbr title="AppController::processChildAfteePayment">processChildAfteePayment</abbr></a></td><td class="text-right">1177</td></tr>
+       <tr><td><a href="AppController.php.html#1772"><abbr title="AppController::redirect">redirect</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="AppController.php.html#4154"><abbr title="AppController::processChildPaypalPayment">processChildPaypalPayment</abbr></a></td><td class="text-right">667</td></tr>
+       <tr><td><a href="AppController.php.html#5263"><abbr title="AppController::processParentAfteePayment">processParentAfteePayment</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="AppController.php.html#4946"><abbr title="AppController::processParentPaypalPayment">processParentPaypalPayment</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="AppController.php.html#1904"><abbr title="AppController::jpyOnlyPage">jpyOnlyPage</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="AppController.php.html#2660"><abbr title="AppController::wpChargePaymentReceivable">wpChargePaymentReceivable</abbr></a></td><td class="text-right">67</td></tr>
+       <tr><td><a href="AppController.php.html#1736"><abbr title="AppController::redirectUsingIpLang">redirectUsingIpLang</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AppController.php.html#5249"><abbr title="AppController::savePaypalFailedSettlement">savePaypalFailedSettlement</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AppController.php.html#2003"><abbr title="AppController::getTimezoneData">getTimezoneData</abbr></a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="AppController.php.html#5595"><abbr title="AppController::setPerMonthSymbol">setPerMonthSymbol</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AppController.php.html#5572"><abbr title="AppController::checkCompanyIPForSMS">checkCompanyIPForSMS</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.9</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.27</a>, <a href="https://codeception.com">Codeception</a> and <a href="https://phpunit.de/">PHPUnit {PHPUnitVersion::id()}</a> at Wed Jun 4 12:05:34 JST 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=11.0.9" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=11.0.9" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=11.0.9" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,1,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,4,0,0,0,1,1,1,1,1,3,20], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[28.05961593579822,1110,"<a href=\"AppController.php.html#33\">AppController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,392,"<a href=\"AppController.php.html#122\">AppController::beforeFilter<\/a>"],[86.09271523178808,124,"<a href=\"AppController.php.html#1439\">AppController::setLocalization<\/a>"],[0,6,"<a href=\"AppController.php.html#1736\">AppController::redirectUsingIpLang<\/a>"],[0,26,"<a href=\"AppController.php.html#1772\">AppController::redirect<\/a>"],[100,10,"<a href=\"AppController.php.html#1849\">AppController::setConfigLanguage<\/a>"],[0,13,"<a href=\"AppController.php.html#1904\">AppController::jpyOnlyPage<\/a>"],[100,6,"<a href=\"AppController.php.html#1967\">AppController::checkIfAllowed<\/a>"],[59.61538461538461,14,"<a href=\"AppController.php.html#2003\">AppController::getTimezoneData<\/a>"],[9.634551495016613,65,"<a href=\"AppController.php.html#2092\">AppController::chargePayPalPaymentReceivable<\/a>"],[94.02985074626866,14,"<a href=\"AppController.php.html#2538\">AppController::chargePaymentReceivable<\/a>"],[41.57303370786517,16,"<a href=\"AppController.php.html#2660\">AppController::wpChargePaymentReceivable<\/a>"],[100,3,"<a href=\"AppController.php.html#2794\">AppController::setSeoLocalizeUrl<\/a>"],[100,5,"<a href=\"AppController.php.html#2817\">AppController::getCustomCurrencyCode<\/a>"],[100,5,"<a href=\"AppController.php.html#2824\">AppController::getPremiumPlanPrice<\/a>"],[100,5,"<a href=\"AppController.php.html#2847\">AppController::checkStasapuDomain<\/a>"],[100,8,"<a href=\"AppController.php.html#2859\">AppController::disablePageForSapuri<\/a>"],[76.47058823529412,11,"<a href=\"AppController.php.html#2872\">AppController::blockWithdrawnSapuriToS<\/a>"],[100,10,"<a href=\"AppController.php.html#2903\">AppController::createEnglishHubCookie<\/a>"],[100,5,"<a href=\"AppController.php.html#2948\">AppController::checkControllerActionExist<\/a>"],[100,6,"<a href=\"AppController.php.html#2969\">AppController::checkIfSNSShare<\/a>"],[94.64285714285714,24,"<a href=\"AppController.php.html#2991\">AppController::setUpAppreciationSelectionModalElement<\/a>"],[100,14,"<a href=\"AppController.php.html#3091\">AppController::sendTeacherAppreciation<\/a>"],[100,1,"<a href=\"AppController.php.html#3151\">AppController::isLocalizeDirValid<\/a>"],[9.032258064516128,63,"<a href=\"AppController.php.html#3170\">AppController::chargeAfteePaymentReceivable<\/a>"],[100,25,"<a href=\"AppController.php.html#3624\">AppController::checkAfteeSupported<\/a>"],[100,4,"<a href=\"AppController.php.html#3669\">AppController::queryGuideControl<\/a>"],[100,3,"<a href=\"AppController.php.html#3737\">AppController::queryLineHoverControl<\/a>"],[100,2,"<a href=\"AppController.php.html#3777\">AppController::NCPlusPositionUrlScheme<\/a>"],[100,27,"<a href=\"AppController.php.html#3785\">AppController::checkLitePlanSupported<\/a>"],[100,4,"<a href=\"AppController.php.html#3857\">AppController::resetPresetTextbook<\/a>"],[100,6,"<a href=\"AppController.php.html#3894\">AppController::setPaypalUser<\/a>"],[100,31,"<a href=\"AppController.php.html#3911\">AppController::checkStripeSupported<\/a>"],[93.7984496124031,21,"<a href=\"AppController.php.html#3979\">AppController::processChildReceivablePayment<\/a>"],[8.771929824561402,29,"<a href=\"AppController.php.html#4154\">AppController::processChildPaypalPayment<\/a>"],[9.210526315789473,39,"<a href=\"AppController.php.html#4461\">AppController::processChildAfteePayment<\/a>"],[62.4,19,"<a href=\"AppController.php.html#4777\">AppController::processParentReceivablePayment<\/a>"],[0,19,"<a href=\"AppController.php.html#4946\">AppController::processParentPaypalPayment<\/a>"],[0,5,"<a href=\"AppController.php.html#5249\">AppController::savePaypalFailedSettlement<\/a>"],[0,23,"<a href=\"AppController.php.html#5263\">AppController::processParentAfteePayment<\/a>"],[0,2,"<a href=\"AppController.php.html#5572\">AppController::checkCompanyIPForSMS<\/a>"],[0,4,"<a href=\"AppController.php.html#5595\">AppController::setPerMonthSymbol<\/a>"],[0,1,"<a href=\"AppController.php.html#5612\">AppController::corporateIpRestrictionLogout<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
